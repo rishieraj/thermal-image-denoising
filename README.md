@@ -8,7 +8,7 @@ To setup the codebase, please run the following commands:
 
 ```bash
 # Clone the repository
-git clone https://github.com/schowdhury671/meerkat.git
+git clone https://github.com/rishieraj/thermal-image-denoising.git
 
 # Change to the root directory
 cd thermal-denoising

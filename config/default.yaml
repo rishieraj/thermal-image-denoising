@@ -1,0 +1,21 @@
+# Training parameters
+num_epochs: 100
+batch_size: 8
+learning_rate: 1e-4
+weight_decay: 0.0
+lamda_ssim: 1.0
+features: 512
+
+# Model config
+model_name: "NUCNet"
+checkpoint_dir: "checkpoints/"
+log_dir: "logs/"
+
+# Data config
+data_path: "data/index.csv"
+image_size: [480, 640]
+num_workers: 4
+
+# Hardware
+device: "cuda"
+seed: 42
